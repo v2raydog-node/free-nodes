@@ -8,10 +8,10 @@
 
 | 最近更新 | 节点数量 | 最低 TCP 延迟 |
 | --- | ---: | --- |
-| 2026-11-11 20:00:12 | 17 | 33 ms（美国） |
+| 2026-11-12 08:00:07 | 22 | 29 ms（美国） |
 
-**国家/地区**：AL、EE、德国、意大利、新加坡、美国、荷兰  
-**节点协议**：SS、VLESS  
+**国家/地区**：BY、EE、MD、德国、意大利、日本、美国、荷兰  
+**节点协议**：SS、SSR、VLESS  
 **更新时段**：每日 08:00、20:00
 
 ## 节点延迟
@@ -20,23 +20,28 @@
 
 | 节点名称 | 国家/地区 | 协议 | TCP 延迟 |
 | --- | --- | --- | ---: |
-| 🇺🇸 美国_01 | 美国 | VLESS | 33 ms |
-| 🇺🇸 美国_02 | 美国 | VLESS | 35 ms |
-| 🇸🇬 新加坡_01 | 新加坡 | VLESS | 74 ms |
-| 🇩🇪 德国_01 | 德国 | VLESS | 171 ms |
-| 🇳🇱 荷兰_01 | 荷兰 | VLESS | 270 ms |
-| 🇦🇱 阿尔巴尼亚_01 | AL | VLESS | 284 ms |
-| 🇪🇪 爱沙尼亚_01 | EE | VLESS | 318 ms |
-| 🇮🇹 意大利_01 | 意大利 | SS | 320 ms |
-| 🇮🇹 意大利_07 | 意大利 | SS | 328 ms |
-| 🇮🇹 意大利_04 | 意大利 | SS | 330 ms |
-| 🇮🇹 意大利_02 | 意大利 | SS | 343 ms |
-| 🇮🇹 意大利_09 | 意大利 | SS | 347 ms |
-| 🇮🇹 意大利_06 | 意大利 | SS | 348 ms |
-| 🇮🇹 意大利_10 | 意大利 | SS | 349 ms |
-| 🇮🇹 意大利_08 | 意大利 | SS | 358 ms |
-| 🇮🇹 意大利_03 | 意大利 | SS | 384 ms |
-| 🇮🇹 意大利_05 | 意大利 | SS | 399 ms |
+| 🇺🇸 美国_02 | 美国 | VLESS | 29 ms |
+| 🇺🇸 美国_03 | 美国 | VLESS | 34 ms |
+| 🇩🇪 德国_02 | 德国 | VLESS | 164 ms |
+| 🇩🇪 德国_01 | 德国 | VLESS | 184 ms |
+| 🇲🇩 摩尔多瓦_01 | MD | VLESS | 185 ms |
+| 🇩🇪 德国_03 | 德国 | VLESS | 192 ms |
+| 🇺🇸 美国_01 | 美国 | VLESS | 202 ms |
+| 🇳🇱 荷兰_02 | 荷兰 | VLESS | 209 ms |
+| 🇮🇹 意大利_04 | 意大利 | SS | 215 ms |
+| 🇮🇹 意大利_03 | 意大利 | SS | 219 ms |
+| 🇮🇹 意大利_01 | 意大利 | SS | 222 ms |
+| 🇮🇹 意大利_02 | 意大利 | SS | 225 ms |
+| 🇳🇱 荷兰_01 | 荷兰 | SSR | 228 ms |
+| 🇮🇹 意大利_10 | 意大利 | SS | 248 ms |
+| 🇮🇹 意大利_08 | 意大利 | SS | 249 ms |
+| 🇮🇹 意大利_06 | 意大利 | SS | 252 ms |
+| 🇧🇾 白俄罗斯_01 | BY | VLESS | 254 ms |
+| 🇪🇪 爱沙尼亚_01 | EE | VLESS | 255 ms |
+| 🇮🇹 意大利_07 | 意大利 | SS | 255 ms |
+| 🇮🇹 意大利_09 | 意大利 | SS | 264 ms |
+| 🇮🇹 意大利_05 | 意大利 | SS | 281 ms |
+| 🇯🇵 日本_01 | 日本 | SS | 319 ms |
 
 [打开完整延迟记录](latency.json)
 
@@ -90,23 +95,27 @@ V2Ray 与 Shadowrocket 入口使用同一批节点。需要单条导入时，可
 节点列表最多显示25个，订阅后查看全部节点
 
 ```text
-vless://0afc6426-606c-48e7-bd70-3c424a416842@us22.sofast.live:58011?encryption=none&security=none&fp=chrome&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD_01
-vless://399b6b23-cc40-4831-a494-61948e2df133@jp.sofast.live:52683?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD_02
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@zfapi.zalolink.com:35460?security=reality&type=tcp&packetEncoding=xudp&sni=psstatic.cdn.bcebos.com&fp=ios&flow=xtls-rprx-vision&sid=30d976db3eab32&pbk=mkVsbEvwaiSo9QwnrVN65YZ92QntQQyYs2iDxN6yTlw#%F0%9F%87%B8%F0%9F%87%AC%20%E6%96%B0%E5%8A%A0%E5%9D%A1_01
-vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mental-deprivation.ru&fp=firefox&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&sid=4ff31b18d1bd8227&spx=%2F5f73ebfc9ef9c37&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD_01
-vless://Fluffy_VPN-zKZUa4Ie@72.56.38.83:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=absolute-disaster.org&fp=firefox&pbk=ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8&type=tcp&headerType=none&host=absolute-disaster.org#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0_01
-vless://cda0862a-0f87-4be9-8ed8-1d0c9e382839@196.245.52.183:443?security=reality&type=xhttp&path=%2Fd20896a4ce30&packetEncoding=xudp&sni=e60833x.nl7.h1clayd.click&fp=firefox&sid=2d2598d60447a967&pbk=jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q&encryption=none#%F0%9F%87%A6%F0%9F%87%B1%20%E9%98%BF%E5%B0%94%E5%B7%B4%E5%B0%BC%E4%BA%9A_01
+vless://0afc6426-606c-48e7-bd70-3c424a416842@us22.sofast.live:58011?encryption=none&security=none&fp=chrome&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD_02
+vless://399b6b23-cc40-4831-a494-61948e2df133@jp.sofast.live:52683?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD_03
+vless://3a667b02-3e6e-439e-9fdb-720ab7a5d306@167.233.182.104:2091?security=none&type=tcp&headerType=http&path=%2F%40TurboConfigs---%40TurboConfigs---%40TurboConfigs--%40TurboConfigs---%40TurboConfigs---%40TurboConfigs---%40TurboConfigs---%40TurboConfigs---%40TurboConfigs--%40TurboConfigs---%40TurboConfigs---%40TurboConfigs---%40TurboConfigs---%40TurboConfigs---%40TurboConfigs--%40TurboConfigs---%40TurboConfigs---%40TurboConfigs---&host=tgju.org&packetEncoding=xudp&flow=xtls-rprx-vision&encryption=mlkem768x25519plus.native.0rtt.idIqJLbBRhVvjLcCi75qK-I68clo9tz132HIDrp6JVA#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD_01
+vless://0f11b72f-1af1-4f0a-b992-87a8241d9213@srv21.buddygpt.ru:443?encryption=none&security=reality&sni=packages.gitlab.com&fp=firefox&pbk=YEyZf6GvVcUG2VJnxyWOJQd8_ORz0n8Tw8Hs417OPxo&sid=5b524cdb28b6824a&type=xhttp&path=%2Fassets%2F1117b6ce&mode=auto#%F0%9F%87%B2%F0%9F%87%A9%20%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6_01
+vless://b86451af-4c98-4b7d-96e5-16f2e9df1d46@shh-hja-bbw.speedbluepanel.sbs:2053?security=none&type=tcp&headerType=http&path=%2F&host=docs.github.com&packetEncoding=xudp&encryption=mlkem768x25519plus.native.0rtt.4ABzCb9yeBZzvV-bRT5Tqpb3kejYBGn4Vib4PJiSyUg#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD_03
+vless://e68cd1c5-6a74-4156-a931-cc63a46a4f18@homestead-walloping.sports-streams.org:443?security=reality&type=xhttp&path=%2F&host=repost.uz&packetEncoding=xudp&sni=repost.uz&fp=chrome&pbk=iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM&mode=auto&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD_01
+vless://3f5e89d5-591f-4ac9-b071-b05680b573c3@msk10.gacvpn.site:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nl3-edge.gacvpn.site&fp=edge&pbk=Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38&sid=db6a4219fb&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1%20%E8%8D%B7%E5%85%B0_02
+vless://c16e8cdb-65dd-4049-bc65-14c051b8a6c6@2.26.251.236:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mental-deprivation.ru&fp=firefox&pbk=1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4&sid=4ff31b18d1bd8227&spx=%2F5f73ebfc9ef9c37&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20%E5%BE%B7%E5%9B%BD_02
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_04
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.54:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_03
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND1AMjAyLjUwLjI1My40NToxOTk5OQ==#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_02
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.18:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_01
 vless://7ad63b26-bf70-4872-8fab-ebaf73a1e19d@5.129.202.80:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror-50.topp-con.xyz&fp=chrome&pbk=NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8&sid=2ef2b10d5143d798&type=tcp&headerType=none#%F0%9F%87%AA%F0%9F%87%AA%20%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A_01
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.45:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_04
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.99:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_01
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.81:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_02
 ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.27:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_07
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.63:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_09
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_06
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_10
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.18:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_08
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_05
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.54:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_03
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.81:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_06
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.72:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_08
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.99:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_09
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.36:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_10
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@202.50.253.90:19999#%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9_05
+vless://cda0862a-0f87-4be9-8ed8-1d0c9e382839@196.196.148.63:443?security=reality&type=grpc&mode=gun&serviceName=204adda7e3da&packetEncoding=none&sni=717252g.nl8.h1clayd.click&fp=firefox&sid=d3bd772514c87d28&pbk=PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU#%F0%9F%87%A7%F0%9F%87%BE%20%E7%99%BD%E4%BF%84%E7%BD%97%E6%96%AF_01
+ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC_01
 ```
 
 ## 客户端下载
