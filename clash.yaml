@@ -3,21 +3,37 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 马来西亚_01 - v2raydog.com
-  server: 23.27.199.148
-  port: 24378
+- name: 🇭🇰 香港_01 - v2raydog.com
+  server: 47.244.120.197
+  port: 23026
+  type: vmess
+  udp: true
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.244.120.197
+- name: 🇭🇰 香港_02 - v2raydog.com
+  server: 8.217.1.203
+  port: 8443
   type: vless
   udp: true
-  uuid: 33d67a80-909e-4cec-aa8f-601f6019a8f0
+  uuid: 8b17beac-b143-447d-aa68-14cbb121a602
   tls: true
   skip-cert-verify: true
   network: tcp
+  flow: xtls-rprx-vision
   reality-opts:
-    public-key: neyQkmBRy_PQjVEN1c6a9UqGyTf-UePx1HNoRCmgFkw
-    short-id: 31a5fe51
-  servername: shield.nvidia.hk
+    public-key: 74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38
+    short-id: 0bf55f64
+  servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国_01 - v2raydog.com
+- name: 🇩🇪 德国_02 - v2raydog.com
   server: 2.26.251.236
   port: 443
   type: vless
@@ -31,15 +47,37 @@ proxies:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: 4ff31b18d1bd8227
   servername: mental-deprivation.ru
-- name: 🇩🇪 德国_02 - v2raydog.com
-  server: 47.254.128.109
+- name: 🇩🇪 德国_01 - v2raydog.com
+  server: 47.254.167.157
   port: 443
   type: ss
   udp: true
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-- name: 🇳🇱 荷兰_03 - v2raydog.com
-  server: 717252g.nl8.h1clayd.click
+- name: 🇺🇸 美国_01 - v2raydog.com
+  server: 88.210.34.18
+  port: 443
+  type: vless
+  udp: true
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: v_vyazre_waQFN1iDyL-deNRJvoFBuokDcHCOCdiQ2A
+    short-id: 1cb833e7c85a788b
+  servername: rusamicro6.gangtype.com
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利_01 - v2raydog.com
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 美国_02 - v2raydog.com
+  server: 162.35.101.177
   port: 443
   type: vless
   udp: true
@@ -48,47 +86,40 @@ proxies:
   skip-cert-verify: true
   network: grpc
   reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: d3bd772514c87d28
-  servername: 717252g.nl8.h1clayd.click
-  client-fingerprint: firefox
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
   grpc-opts:
-    grpc-service-name: 204adda7e3da
-- name: 🇳🇱 荷兰_02 - v2raydog.com
-  server: 5d0319t.nl7.h1clayd.click
+    grpc-service-name: 99f2107b03f8
+- name: 🇱🇹 立陶宛_01 - v2raydog.com
+  server: 176.223.131.60
+  port: 443
+  type: vless
+  udp: true
+  uuid: cae99415-10a6-4317-81bd-19a4586b5d76
+  tls: true
+  skip-cert-verify: true
+  network: xhttp
+  reality-opts:
+    public-key: KEbWnNTqeFDxwCQqyvVvyEhnK7QUIrwhq9-9geUEOmY
+    short-id: 90190d82f1581926
+  servername: 7bc4aex.lt3.h1clayd.click
+  client-fingerprint: chrome
+- name: 🇩🇪 德国_03 - v2raydog.com
+  server: 80cb66x.nl13.h1clayd.click
   port: 443
   type: vless
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
   skip-cert-verify: true
-  network: tcp
+  network: xhttp
   reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
-  servername: 5d0319t.nl7.h1clayd.click
-  client-fingerprint: firefox
-- name: 🇮🇹 意大利_08 - v2raydog.com
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_04 - v2raydog.com
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_02 - v2raydog.com
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+    public-key: jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0
+    short-id: f72d4a2c7cbbacb1
+  servername: 80cb66x.nl13.h1clayd.click
+  client-fingerprint: chrome
 - name: 🇮🇹 意大利_03 - v2raydog.com
   server: 202.50.253.18
   port: 19999
@@ -97,27 +128,13 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利_05 - v2raydog.com
-  server: 202.50.253.81
+  server: 202.50.253.63
   port: 19999
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_09 - v2raydog.com
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利_06 - v2raydog.com
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇸 西班牙_01 - v2raydog.com
+- name: 🇳🇬 尼日利亚_01 - v2raydog.com
   server: 196.196.149.80
   port: 443
   type: vless
@@ -132,8 +149,50 @@ proxies:
     short-id: 42426c882c5fcd41
   servername: 7aa271t.es1.h1clayd.click
   client-fingerprint: chrome
-- name: 🇩🇪 德国_03 - v2raydog.com
-  server: 4935e4t.de25.h1clayd.click
+- name: 🇮🇹 意大利_02 - v2raydog.com
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇬🇧 英国_02 - v2raydog.com
+  server: a80b5386.fi2.h1clayd.click
+  port: 443
+  type: vless
+  udp: true
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  reality-opts:
+    public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
+    short-id: cc678f10161992a9
+  servername: a80b5386.fi2.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇬🇧 英国_01 - v2raydog.com
+  server: 196.196.208.22
+  port: 443
+  type: vless
+  udp: true
+  uuid: cae99415-10a6-4317-81bd-19a4586b5d76
+  tls: true
+  skip-cert-verify: true
+  network: xhttp
+  reality-opts:
+    public-key: _yJGJ5q-8IxTuWFcoy5wpKKYtk9p9q4lQ6svfXC1IUU
+    short-id: 621290c77645b731
+  servername: 9303d6x.fi-p1b.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇮🇹 意大利_09 - v2raydog.com
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇩🇪 德国_04 - v2raydog.com
+  server: 196.196.148.177
   port: 443
   type: vless
   udp: true
@@ -146,88 +205,133 @@ proxies:
     public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
     short-id: 6976d670818644cc
   servername: 4935e4t.de25.h1clayd.click
-  client-fingerprint: ios
-- name: 🇮🇹 意大利_01 - v2raydog.com
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱 荷兰_01 - v2raydog.com
-  server: 193.111.248.54
-  port: 443
-  type: vless
-  udp: true
-  uuid: a8e5585a-6020-4649-a364-c1ebf3a40548
-  tls: true
-  skip-cert-verify: true
-  network: tcp
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 0KDql59THS-DXg30wMR0QGgFB6rXARDhr8WoWyfVA2M
-    short-id: 6f0091ebe3029ebb
-  servername: tagderdeutscheneinheit.de
   client-fingerprint: firefox
-- name: 🇮🇹 意大利_07 - v2raydog.com
+- name: 🇮🇹 意大利_08 - v2raydog.com
   server: 202.50.253.72
   port: 19999
   type: ss
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇩🇪 德国_04 - v2raydog.com
-  server: 8a2e72t.nl11.h1clayd.click
+- name: 🇮🇹 意大利_04 - v2raydog.com
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦 加拿大_01 - v2raydog.com
+  server: 94.241.140.130
   port: 443
   type: vless
   udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
   tls: true
   skip-cert-verify: true
-  network: raw
+  network: tcp
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: 8d0d0679f42ffd98
-  servername: 8a2e72t.nl11.h1clayd.click
+    public-key: fVYMiP7jX5yo5loyRrDdajLFBM6FNkZIfBIsezKjdm8
+    short-id: 723ace0d14784964
+  servername: rucanmicro2.gangplatform.com
   client-fingerprint: chrome
-- name: 🇺🇸 美国_02 - v2raydog.com
-  server: 196.245.52.187
+- name: 🇮🇹 意大利_06 - v2raydog.com
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利_07 - v2raydog.com
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱 荷兰_01 - v2raydog.com
+  server: 196.245.52.183
   port: 443
   type: vless
   udp: true
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
   skip-cert-verify: true
-  network: tcp
+  network: grpc
   reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: ba2a3dce62b99092
-  servername: 04535dt.us8.h1clayd.click
+    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
+    short-id: 50a749f0eccb628c
+  servername: 15b171g.nl7.h1clayd.click
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 5b79e8a94241
+- name: 🇮🇹 意大利_10 - v2raydog.com
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇰🇿 哈萨克斯坦_01 - v2raydog.com
+  server: 201.34.136.78
+  port: 443
+  type: vless
+  udp: true
+  uuid: 42c83523-9f96-41b2-82d6-2edb71a4ac19
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+    short-id: ''
+  servername: fjn2vd4dgxb6.dynarix-node41.sbs
+  client-fingerprint: firefox
+- name: 🇳🇪 尼日尔_01 - v2raydog.com
+  server: 196.196.148.90
+  port: 443
+  type: vless
+  udp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+  servername: 7aa271t.es9.h1clayd.click
   client-fingerprint: firefox
 proxy-groups:
 - name: 手动选线
   type: select
   proxies:
-  - 🇲🇾 马来西亚_01 - v2raydog.com
-  - 🇩🇪 德国_01 - v2raydog.com
+  - 🇭🇰 香港_01 - v2raydog.com
+  - 🇭🇰 香港_02 - v2raydog.com
   - 🇩🇪 德国_02 - v2raydog.com
-  - 🇳🇱 荷兰_03 - v2raydog.com
-  - 🇳🇱 荷兰_02 - v2raydog.com
-  - 🇮🇹 意大利_08 - v2raydog.com
-  - 🇮🇹 意大利_04 - v2raydog.com
-  - 🇮🇹 意大利_02 - v2raydog.com
+  - 🇩🇪 德国_01 - v2raydog.com
+  - 🇺🇸 美国_01 - v2raydog.com
+  - 🇮🇹 意大利_01 - v2raydog.com
+  - 🇺🇸 美国_02 - v2raydog.com
+  - 🇱🇹 立陶宛_01 - v2raydog.com
+  - 🇩🇪 德国_03 - v2raydog.com
   - 🇮🇹 意大利_03 - v2raydog.com
   - 🇮🇹 意大利_05 - v2raydog.com
+  - 🇳🇬 尼日利亚_01 - v2raydog.com
+  - 🇮🇹 意大利_02 - v2raydog.com
+  - 🇬🇧 英国_02 - v2raydog.com
+  - 🇬🇧 英国_01 - v2raydog.com
   - 🇮🇹 意大利_09 - v2raydog.com
-  - 🇮🇹 意大利_06 - v2raydog.com
-  - 🇪🇸 西班牙_01 - v2raydog.com
-  - 🇩🇪 德国_03 - v2raydog.com
-  - 🇮🇹 意大利_01 - v2raydog.com
-  - 🇳🇱 荷兰_01 - v2raydog.com
-  - 🇮🇹 意大利_07 - v2raydog.com
   - 🇩🇪 德国_04 - v2raydog.com
-  - 🇺🇸 美国_02 - v2raydog.com
+  - 🇮🇹 意大利_08 - v2raydog.com
+  - 🇮🇹 意大利_04 - v2raydog.com
+  - 🇨🇦 加拿大_01 - v2raydog.com
+  - 🇮🇹 意大利_06 - v2raydog.com
+  - 🇮🇹 意大利_07 - v2raydog.com
+  - 🇳🇱 荷兰_01 - v2raydog.com
+  - 🇮🇹 意大利_10 - v2raydog.com
+  - 🇰🇿 哈萨克斯坦_01 - v2raydog.com
+  - 🇳🇪 尼日尔_01 - v2raydog.com
   - DIRECT
 rules:
 - MATCH,手动选线
