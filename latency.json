@@ -1,498 +1,564 @@
 {
-  "tested_at": "2026-11-25T20:00:11+08:00",
+  "tested_at": "2026-11-26T08:00:11+08:00",
   "method": "TCP connect",
   "nodes": [
-    {
-      "name": "🇸🇬 新加坡_01 - v2raydog.com",
-      "country_region": "新加坡",
-      "protocol": "vless",
-      "tcp_ms": 115.25
-    },
-    {
-      "name": "🇺🇸 美国_01 - v2raydog.com",
-      "country_region": "美国",
-      "protocol": "vless",
-      "tcp_ms": 119.86
-    },
     {
       "name": "🇭🇰 香港_01 - v2raydog.com",
       "country_region": "香港",
       "protocol": "vless",
-      "tcp_ms": 127.6
-    },
-    {
-      "name": "🇯🇵 日本_01 - v2raydog.com",
-      "country_region": "日本",
-      "protocol": "vless",
-      "tcp_ms": 135.32
+      "tcp_ms": 32.88
     },
     {
       "name": "🇩🇪 德国_01 - v2raydog.com",
       "country_region": "德国",
       "protocol": "vless",
-      "tcp_ms": 189.03
+      "tcp_ms": 155.91
     },
     {
-      "name": "🇬🇧 英国_01 - v2raydog.com",
-      "country_region": "英国",
+      "name": "🇳🇱 荷兰_03 - v2raydog.com",
+      "country_region": "荷兰",
       "protocol": "vless",
-      "tcp_ms": 221.95
+      "tcp_ms": 159.92
     },
     {
-      "name": "🇮🇹 意大利_03 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 222.04
-    },
-    {
-      "name": "🇮🇹 意大利_04 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 223.14
+      "name": "🇮🇱 以色列_01 - v2raydog.com",
+      "country_region": "以色列",
+      "protocol": "vless",
+      "tcp_ms": 186.14
     },
     {
       "name": "🇩🇪 德国_02 - v2raydog.com",
       "country_region": "德国",
       "protocol": "vless",
-      "tcp_ms": 225.63
+      "tcp_ms": 192.83
     },
     {
       "name": "🇮🇹 意大利_07 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 230.63
+      "tcp_ms": 215.28
+    },
+    {
+      "name": "🇺🇸 美国_01 - v2raydog.com",
+      "country_region": "美国",
+      "protocol": "vless",
+      "tcp_ms": 229.51
+    },
+    {
+      "name": "🇮🇹 意大利_03 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 229.73
     },
     {
       "name": "🇮🇹 意大利_06 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 233.68
-    },
-    {
-      "name": "🇳🇱 荷兰_01 - v2raydog.com",
-      "country_region": "荷兰",
-      "protocol": "vless",
-      "tcp_ms": 237.62
-    },
-    {
-      "name": "🇮🇹 意大利_09 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 253.84
+      "tcp_ms": 233.07
     },
     {
       "name": "🇮🇹 意大利_10 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 254.65
+      "tcp_ms": 235.34
+    },
+    {
+      "name": "🇩🇪 德国_03 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "vless",
+      "tcp_ms": 238.18
+    },
+    {
+      "name": "🇳🇱 荷兰_02 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 246.97
     },
     {
       "name": "🇮🇹 意大利_08 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 263.03
+      "tcp_ms": 251.44
     },
     {
-      "name": "🇮🇹 意大利_02 - v2raydog.com",
-      "country_region": "意大利",
+      "name": "🇩🇪 德国_04 - v2raydog.com",
+      "country_region": "德国",
       "protocol": "ss",
-      "tcp_ms": 269.07
+      "tcp_ms": 255.1
     },
     {
       "name": "🇮🇹 意大利_05 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 270.28
+      "tcp_ms": 255.32
     },
     {
-      "name": "🇱🇾 利比亚_01 - v2raydog.com",
-      "country_region": "LY",
+      "name": "🇪🇸 西班牙_01 - v2raydog.com",
+      "country_region": "西班牙",
       "protocol": "vless",
-      "tcp_ms": 271.23
+      "tcp_ms": 258.45
+    },
+    {
+      "name": "🇮🇹 意大利_09 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 260.09
+    },
+    {
+      "name": "🇮🇹 意大利_02 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 260.33
     },
     {
       "name": "🇮🇹 意大利_01 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 290.32
+      "tcp_ms": 263.41
     },
     {
-      "name": "🇳🇪 尼日尔_01 - v2raydog.com",
-      "country_region": "NE",
+      "name": "🇬🇧 英国_01 - v2raydog.com",
+      "country_region": "英国",
       "protocol": "vless",
-      "tcp_ms": 307.01
+      "tcp_ms": 263.82
     },
     {
-      "name": "🇺🇸 美国_02 - v2raydog.com",
-      "country_region": "美国",
+      "name": "🇳🇱 荷兰_01 - v2raydog.com",
+      "country_region": "荷兰",
       "protocol": "vless",
-      "tcp_ms": 482.68
+      "tcp_ms": 266.26
+    },
+    {
+      "name": "🇮🇹 意大利_04 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 280.49
+    },
+    {
+      "name": "🇳🇱 荷兰_04 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 306.48
     }
   ],
   "clash": [
     {
-      "name": "🇺🇸 美国_01 - v2raydog.com",
-      "country_region": "美国",
+      "name": "🇭🇰 香港_01 - v2raydog.com",
+      "country_region": "香港",
       "protocol": "vless",
-      "tcp_ms": 119.86
+      "tcp_ms": 32.88
     },
     {
-      "name": "🇯🇵 日本_01 - v2raydog.com",
-      "country_region": "日本",
+      "name": "🇳🇱 荷兰_03 - v2raydog.com",
+      "country_region": "荷兰",
       "protocol": "vless",
-      "tcp_ms": 147.4
+      "tcp_ms": 159.92
     },
     {
-      "name": "🇮🇹 意大利_03 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 222.04
-    },
-    {
-      "name": "🇮🇹 意大利_04 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 223.14
+      "name": "🇩🇪 德国_01 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "vless",
+      "tcp_ms": 160.17
     },
     {
       "name": "🇩🇪 德国_02 - v2raydog.com",
       "country_region": "德国",
       "protocol": "vless",
-      "tcp_ms": 225.63
+      "tcp_ms": 192.83
     },
     {
       "name": "🇮🇹 意大利_07 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 230.63
+      "tcp_ms": 216.3
+    },
+    {
+      "name": "🇮🇱 以色列_01 - v2raydog.com",
+      "country_region": "以色列",
+      "protocol": "vless",
+      "tcp_ms": 219.31
+    },
+    {
+      "name": "🇮🇹 意大利_06 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 233.07
+    },
+    {
+      "name": "🇩🇪 德国_03 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "vless",
+      "tcp_ms": 241.8
+    },
+    {
+      "name": "🇮🇹 意大利_03 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 242.0
+    },
+    {
+      "name": "🇺🇸 美国_01 - v2raydog.com",
+      "country_region": "美国",
+      "protocol": "vless",
+      "tcp_ms": 242.25
+    },
+    {
+      "name": "🇮🇹 意大利_10 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 252.27
+    },
+    {
+      "name": "🇳🇱 荷兰_02 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 252.93
+    },
+    {
+      "name": "🇮🇹 意大利_08 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 254.78
+    },
+    {
+      "name": "🇩🇪 德国_04 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "ss",
+      "tcp_ms": 255.1
+    },
+    {
+      "name": "🇮🇹 意大利_05 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 255.32
+    },
+    {
+      "name": "🇪🇸 西班牙_01 - v2raydog.com",
+      "country_region": "西班牙",
+      "protocol": "vless",
+      "tcp_ms": 259.69
+    },
+    {
+      "name": "🇮🇹 意大利_02 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 260.33
+    },
+    {
+      "name": "🇮🇹 意大利_01 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 268.77
+    },
+    {
+      "name": "🇮🇹 意大利_09 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 275.24
+    },
+    {
+      "name": "🇬🇧 英国_01 - v2raydog.com",
+      "country_region": "英国",
+      "protocol": "vless",
+      "tcp_ms": 276.39
     },
     {
       "name": "🇳🇱 荷兰_01 - v2raydog.com",
       "country_region": "荷兰",
       "protocol": "vless",
-      "tcp_ms": 237.62
+      "tcp_ms": 276.89
     },
     {
-      "name": "🇮🇹 意大利_06 - v2raydog.com",
+      "name": "🇮🇹 意大利_04 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 238.54
+      "tcp_ms": 281.05
     },
     {
-      "name": "🇮🇹 意大利_09 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 253.84
-    },
-    {
-      "name": "🇬🇧 英国_01 - v2raydog.com",
-      "country_region": "英国",
+      "name": "🇳🇱 荷兰_04 - v2raydog.com",
+      "country_region": "荷兰",
       "protocol": "vless",
-      "tcp_ms": 256.68
-    },
-    {
-      "name": "🇮🇹 意大利_10 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 262.95
-    },
-    {
-      "name": "🇮🇹 意大利_08 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 263.03
-    },
-    {
-      "name": "🇮🇹 意大利_05 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 270.28
-    },
-    {
-      "name": "🇱🇾 利比亚_01 - v2raydog.com",
-      "country_region": "LY",
-      "protocol": "vless",
-      "tcp_ms": 271.23
-    },
-    {
-      "name": "🇭🇰 香港_01 - v2raydog.com",
-      "country_region": "香港",
-      "protocol": "vless",
-      "tcp_ms": 1131.89
-    },
-    {
-      "name": "🇩🇪 德国_01 - v2raydog.com",
-      "country_region": "德国",
-      "protocol": "vless",
-      "tcp_ms": 1263.13
-    },
-    {
-      "name": "🇮🇹 意大利_01 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 1274.19
-    },
-    {
-      "name": "🇳🇪 尼日尔_01 - v2raydog.com",
-      "country_region": "NE",
-      "protocol": "vless",
-      "tcp_ms": 1283.28
-    },
-    {
-      "name": "🇮🇹 意大利_02 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 1297.46
-    },
-    {
-      "name": "🇺🇸 美国_02 - v2raydog.com",
-      "country_region": "美国",
-      "protocol": "vless",
-      "tcp_ms": 1528.01
+      "tcp_ms": 308.8
     }
   ],
   "v2ray": [
     {
-      "name": "🇸🇬 新加坡_01 - v2raydog.com",
-      "country_region": "新加坡",
-      "protocol": "vless",
-      "tcp_ms": 115.25
-    },
-    {
       "name": "🇭🇰 香港_01 - v2raydog.com",
       "country_region": "香港",
       "protocol": "vless",
-      "tcp_ms": 127.6
-    },
-    {
-      "name": "🇺🇸 美国_01 - v2raydog.com",
-      "country_region": "美国",
-      "protocol": "vless",
-      "tcp_ms": 130.46
-    },
-    {
-      "name": "🇯🇵 日本_01 - v2raydog.com",
-      "country_region": "日本",
-      "protocol": "vless",
-      "tcp_ms": 135.32
+      "tcp_ms": 33.61
     },
     {
       "name": "🇩🇪 德国_01 - v2raydog.com",
       "country_region": "德国",
       "protocol": "vless",
-      "tcp_ms": 189.03
+      "tcp_ms": 155.91
     },
     {
-      "name": "🇬🇧 英国_01 - v2raydog.com",
-      "country_region": "英国",
+      "name": "🇳🇱 荷兰_03 - v2raydog.com",
+      "country_region": "荷兰",
       "protocol": "vless",
-      "tcp_ms": 221.95
+      "tcp_ms": 172.98
     },
     {
-      "name": "🇮🇹 意大利_06 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 233.68
-    },
-    {
-      "name": "🇮🇹 意大利_07 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 240.19
-    },
-    {
-      "name": "🇮🇹 意大利_10 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 254.65
-    },
-    {
-      "name": "🇮🇹 意大利_08 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 263.54
-    },
-    {
-      "name": "🇮🇹 意大利_02 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 269.07
-    },
-    {
-      "name": "🇮🇹 意大利_05 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 284.68
-    },
-    {
-      "name": "🇮🇹 意大利_01 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 290.32
-    },
-    {
-      "name": "🇳🇪 尼日尔_01 - v2raydog.com",
-      "country_region": "NE",
+      "name": "🇮🇱 以色列_01 - v2raydog.com",
+      "country_region": "以色列",
       "protocol": "vless",
-      "tcp_ms": 307.01
-    },
-    {
-      "name": "🇺🇸 美国_02 - v2raydog.com",
-      "country_region": "美国",
-      "protocol": "vless",
-      "tcp_ms": 482.68
+      "tcp_ms": 186.14
     },
     {
       "name": "🇩🇪 德国_02 - v2raydog.com",
       "country_region": "德国",
       "protocol": "vless",
-      "tcp_ms": 1226.97
+      "tcp_ms": 201.13
     },
     {
-      "name": "🇱🇾 利比亚_01 - v2raydog.com",
-      "country_region": "LY",
-      "protocol": "vless",
-      "tcp_ms": 1232.13
-    },
-    {
-      "name": "🇮🇹 意大利_04 - v2raydog.com",
+      "name": "🇮🇹 意大利_07 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 1258.55
+      "tcp_ms": 215.28
+    },
+    {
+      "name": "🇺🇸 美国_01 - v2raydog.com",
+      "country_region": "美国",
+      "protocol": "vless",
+      "tcp_ms": 229.51
     },
     {
       "name": "🇮🇹 意大利_03 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 1266.86
+      "tcp_ms": 229.73
+    },
+    {
+      "name": "🇮🇹 意大利_10 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 235.34
+    },
+    {
+      "name": "🇩🇪 德国_03 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "vless",
+      "tcp_ms": 238.18
+    },
+    {
+      "name": "🇮🇹 意大利_06 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 240.38
+    },
+    {
+      "name": "🇳🇱 荷兰_02 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 246.97
+    },
+    {
+      "name": "🇮🇹 意大利_08 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 251.44
+    },
+    {
+      "name": "🇪🇸 西班牙_01 - v2raydog.com",
+      "country_region": "西班牙",
+      "protocol": "vless",
+      "tcp_ms": 258.45
     },
     {
       "name": "🇮🇹 意大利_09 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 2304.46
+      "tcp_ms": 260.09
+    },
+    {
+      "name": "🇮🇹 意大利_01 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 263.41
+    },
+    {
+      "name": "🇩🇪 德国_04 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "ss",
+      "tcp_ms": 263.61
+    },
+    {
+      "name": "🇬🇧 英国_01 - v2raydog.com",
+      "country_region": "英国",
+      "protocol": "vless",
+      "tcp_ms": 263.82
+    },
+    {
+      "name": "🇮🇹 意大利_02 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 264.31
+    },
+    {
+      "name": "🇳🇱 荷兰_01 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 266.26
+    },
+    {
+      "name": "🇮🇹 意大利_05 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 272.52
+    },
+    {
+      "name": "🇮🇹 意大利_04 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 280.49
+    },
+    {
+      "name": "🇳🇱 荷兰_04 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 306.48
     }
   ],
   "shadowrocket": [
     {
-      "name": "🇸🇬 新加坡_01 - v2raydog.com",
-      "country_region": "新加坡",
-      "protocol": "vless",
-      "tcp_ms": 115.25
-    },
-    {
       "name": "🇭🇰 香港_01 - v2raydog.com",
       "country_region": "香港",
       "protocol": "vless",
-      "tcp_ms": 127.6
-    },
-    {
-      "name": "🇺🇸 美国_01 - v2raydog.com",
-      "country_region": "美国",
-      "protocol": "vless",
-      "tcp_ms": 130.46
-    },
-    {
-      "name": "🇯🇵 日本_01 - v2raydog.com",
-      "country_region": "日本",
-      "protocol": "vless",
-      "tcp_ms": 135.32
+      "tcp_ms": 33.61
     },
     {
       "name": "🇩🇪 德国_01 - v2raydog.com",
       "country_region": "德国",
       "protocol": "vless",
-      "tcp_ms": 189.03
+      "tcp_ms": 155.91
     },
     {
-      "name": "🇬🇧 英国_01 - v2raydog.com",
-      "country_region": "英国",
+      "name": "🇳🇱 荷兰_03 - v2raydog.com",
+      "country_region": "荷兰",
       "protocol": "vless",
-      "tcp_ms": 221.95
+      "tcp_ms": 172.98
     },
     {
-      "name": "🇮🇹 意大利_06 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 233.68
-    },
-    {
-      "name": "🇮🇹 意大利_07 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 240.19
-    },
-    {
-      "name": "🇮🇹 意大利_10 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 254.65
-    },
-    {
-      "name": "🇮🇹 意大利_08 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 263.54
-    },
-    {
-      "name": "🇮🇹 意大利_02 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 269.07
-    },
-    {
-      "name": "🇮🇹 意大利_05 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 284.68
-    },
-    {
-      "name": "🇮🇹 意大利_01 - v2raydog.com",
-      "country_region": "意大利",
-      "protocol": "ss",
-      "tcp_ms": 290.32
-    },
-    {
-      "name": "🇳🇪 尼日尔_01 - v2raydog.com",
-      "country_region": "NE",
+      "name": "🇮🇱 以色列_01 - v2raydog.com",
+      "country_region": "以色列",
       "protocol": "vless",
-      "tcp_ms": 307.01
-    },
-    {
-      "name": "🇺🇸 美国_02 - v2raydog.com",
-      "country_region": "美国",
-      "protocol": "vless",
-      "tcp_ms": 482.68
+      "tcp_ms": 186.14
     },
     {
       "name": "🇩🇪 德国_02 - v2raydog.com",
       "country_region": "德国",
       "protocol": "vless",
-      "tcp_ms": 1226.97
+      "tcp_ms": 201.13
     },
     {
-      "name": "🇱🇾 利比亚_01 - v2raydog.com",
-      "country_region": "LY",
-      "protocol": "vless",
-      "tcp_ms": 1232.13
-    },
-    {
-      "name": "🇮🇹 意大利_04 - v2raydog.com",
+      "name": "🇮🇹 意大利_07 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 1258.55
+      "tcp_ms": 215.28
+    },
+    {
+      "name": "🇺🇸 美国_01 - v2raydog.com",
+      "country_region": "美国",
+      "protocol": "vless",
+      "tcp_ms": 229.51
     },
     {
       "name": "🇮🇹 意大利_03 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 1266.86
+      "tcp_ms": 229.73
+    },
+    {
+      "name": "🇮🇹 意大利_10 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 235.34
+    },
+    {
+      "name": "🇩🇪 德国_03 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "vless",
+      "tcp_ms": 238.18
+    },
+    {
+      "name": "🇮🇹 意大利_06 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 240.38
+    },
+    {
+      "name": "🇳🇱 荷兰_02 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 246.97
+    },
+    {
+      "name": "🇮🇹 意大利_08 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 251.44
+    },
+    {
+      "name": "🇪🇸 西班牙_01 - v2raydog.com",
+      "country_region": "西班牙",
+      "protocol": "vless",
+      "tcp_ms": 258.45
     },
     {
       "name": "🇮🇹 意大利_09 - v2raydog.com",
       "country_region": "意大利",
       "protocol": "ss",
-      "tcp_ms": 2304.46
+      "tcp_ms": 260.09
+    },
+    {
+      "name": "🇮🇹 意大利_01 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 263.41
+    },
+    {
+      "name": "🇩🇪 德国_04 - v2raydog.com",
+      "country_region": "德国",
+      "protocol": "ss",
+      "tcp_ms": 263.61
+    },
+    {
+      "name": "🇬🇧 英国_01 - v2raydog.com",
+      "country_region": "英国",
+      "protocol": "vless",
+      "tcp_ms": 263.82
+    },
+    {
+      "name": "🇮🇹 意大利_02 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 264.31
+    },
+    {
+      "name": "🇳🇱 荷兰_01 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 266.26
+    },
+    {
+      "name": "🇮🇹 意大利_05 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 272.52
+    },
+    {
+      "name": "🇮🇹 意大利_04 - v2raydog.com",
+      "country_region": "意大利",
+      "protocol": "ss",
+      "tcp_ms": 280.49
+    },
+    {
+      "name": "🇳🇱 荷兰_04 - v2raydog.com",
+      "country_region": "荷兰",
+      "protocol": "vless",
+      "tcp_ms": 306.48
     }
   ]
 }
